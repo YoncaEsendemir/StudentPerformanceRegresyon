@@ -12,5 +12,5 @@ Using the available data, you are asked to estimate a student's "Performance Ind
 </p>
 
 <p align="center">
-  <img src="./VerininAnalizi.jpg" width="600">
+  <img src="./predict.jpg" width="600">
 </p>
