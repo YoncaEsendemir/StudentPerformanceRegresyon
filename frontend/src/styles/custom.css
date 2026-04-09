@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(135deg, #0f172a,#1e293b);
+    color:white;
+    font-family:'Segoe UI',sans-serif;
+}
+
+.card-modern{
+    background: #1e293b;
+    border-radius: 20px;
+    padding:25px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+
+.card-modern:hover{
+    transform: translateY(-5px);
+}
+
+.title{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.btn-modern{
+    background:linear-gradient(135deg, #22c55e, #16a34a) ;
+    border:none;
+    border-radius: 12px;
+    padding:12px;
+    font-weight: bold;
+}
+
+.result-box{
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #6366f1, #4f46e5);
+    text-align: center;
+}
