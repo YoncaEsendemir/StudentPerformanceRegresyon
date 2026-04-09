@@ -1,7 +1,5 @@
-# StudentPerformanceRegresyon
-Using the available data, you are asked to estimate a student's "Performance Index" (a number between 10 and 100) based on their habits and history.
 # 🎓 AI-Powered Student Performance Predictor
-
+Using the available data, you are asked to estimate a student's "Performance Index" (a number between 10 and 100) based on their habits and history.
 This project is a fullstack machine learning application that predicts a student's **Performance Index (10–100)** based on their study habits and academic history.
 
 ---
