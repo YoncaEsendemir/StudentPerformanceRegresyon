@@ -17,7 +17,9 @@ const [result,setResult]=useState<number | null>(null);
 
     const handlePredict =async()=>{
       try{
-      const res = await fetch("http://127.0.0.1:8000/predict",{
+        //http://127.0.0.1:8000/predict
+        const API_URL = "https://studentperformanceregresyon.onrender.com";
+      const res = await fetch(`${API_URL}/predict`,{
         method:"POST",
         headers:{
           "Content-Type":"application/json"
