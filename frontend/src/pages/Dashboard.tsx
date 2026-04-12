@@ -43,16 +43,16 @@ const [result,setResult]=useState<number | null>(null);
       <Container className="mt-5">
       <Row className="justify-content-center">
         <Col md={6}>
+           {/* Kartın ana yapısı */}
           <div className="card-modern">
-            <h3 className="title mb-4">Student Performance Predictor</h3>
-
+            <h3 className="text-center fw-bold title mb-4" style={{ color: "#fff" }}>Student Performance Predictor</h3>
             <InputField label="Hours Studied" value ={hours} onChange={setHours} />
             <InputField label="Previous Scores" value={scores} onChange={setScores} />
             <SelectField value={activities} onChange={setActivities} />
             <InputField label="Sleep Hours" value={sleep} onChange={setSleep} />
             <InputField label="Sample Papers Practiced" value={papers} onChange={setPapers} />
 
-            <Button className="btn-modern w-100 mt-3" onClick={handlePredict}>
+            <Button className="btn-modern w-100 mt-3 fs-4" onClick={handlePredict}>
               🚀 Predict Performance
             </Button>
 

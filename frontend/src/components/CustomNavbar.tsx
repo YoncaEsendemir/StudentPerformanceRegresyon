@@ -1,12 +1,12 @@
-import {Navbar,Container } from "react-bootstrap";
+import {Container } from "react-bootstrap";
 
 const CustomNavbar = ()=>{
  return(
-    <Navbar>
-        <Container>
-            <Navbar.Brand>AI Student Predictor</Navbar.Brand>
+    <div className="mt-5 fluid text-center justify-content-center">
+        <Container className="mt-5 fluid text-center ">
+            <h2 className="nav-brand">AI Student Predictor</h2>
         </Container>
-    </Navbar>
+    </div>
  );
 };
 

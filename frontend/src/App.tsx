@@ -1,16 +1,16 @@
 import Dashboard from './pages/Dashboard'
 import CustomNavbar from './components/CustomNavbar'
-import "./styles/custom.css"
+import { Container } from 'react-bootstrap'
 
-import './App.css'
+import "./styles/custom.css"
 
 function App() {
 
   return (
-    <>
+    <Container>
       <CustomNavbar />
       <Dashboard />
-    </>
+    </Container>
   )
 }
 

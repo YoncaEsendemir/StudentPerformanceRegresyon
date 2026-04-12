@@ -8,14 +8,13 @@ interface Props{
 const SelectField = ({value, onChange}:Props)=>{
   return(
     <Form.Group className="mb-3">
-        <Form.Label>Extracurricular Activities</Form.Label>
-            <Form.Select value={value} onChange={(e)=>onChange(Number(e.target.value))}>
+        <Form.Label className="form-label fs-5">Extracurricular Activities</Form.Label>
+            <Form.Select className="form-select" value={value} onChange={(e)=>onChange(Number(e.target.value))}>
                 <option value={1}>Yes</option>
                 <option value={0}>No</option>
             </Form.Select>
     </Form.Group>
   );
 };
-
 
 export default SelectField

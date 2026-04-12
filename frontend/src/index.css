@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #253f7a 0%, #7c8798 100%); /* Gece mavisi modern gradient */
+  min-height: 100vh;
+  color: #f8fafc;
+}
+
+/* Glassmorphism Kart Yapısı */
+.card-modern {
+  background: rgba(255, 255, 255, 0.475);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  padding: 2.5rem;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  transition: transform 0.3s ease;
+}
+
+.card-modern:hover {
+  transform: translateY(-5px);
+}
+
+/* Modern Inputlar */
+.form-label {
+  font-weight: 500;
+  color: #8498b4ed;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-control, .form-select {
+  background: rgba(97, 85, 85, 0.134) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 12px !important;
+  color: white !important;
+  padding: 0.75rem 1rem !important;
+}
+
+.form-control:focus {
+  background: rgba(255, 255, 255, 0.07) !important;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.2) !important;
+  border-color: #8070ecd8 !important;
+}
+
+/* Gösterişli Buton */
+.btn-modern {
+  background: linear-gradient(90deg, #3b82f6 0%, #2563eb 100%);
+  border: none;
+  border-radius: 12px;
+  padding: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.btn-modern:hover {
+  filter: brightness(1.1);
+  box-shadow: 0 0 20px rgba(37, 99, 235, 0.4);
+}
+
+/* Sonuç Kartı */
+.result-display {
+  background: rgba(34, 197, 94, 0.1);
+  border-radius: 16px;
+  padding: 1.5rem;
+  text-align: center;
+  border: 1px dashed #16ede2d5;
+}
+
+.nav-brand{
+  padding: 1rem;
+  font-weight: 600;
+  color:#94a3b8;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding-top: 2rem;  
+}

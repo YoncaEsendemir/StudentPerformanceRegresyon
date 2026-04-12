@@ -8,8 +8,8 @@ interface Props{
 
 const InputField =({ label, value, onChange }: Props)=>{return (
  <Form.Group className="mb-3">
-    <Form.Label>{label}</Form.Label>
-    <Form.Control type="number" value={value} onChange={(e)=>onChange(Number(e.target.value))}/>
+    <Form.Label className="form-label fs-5">{label}</Form.Label>
+    <Form.Control className="form-control" type="number" value={value} onChange={(e)=>onChange(Number(e.target.value))}/>
 
  </Form.Group>
 );};
