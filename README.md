@@ -99,6 +99,11 @@ If you have any feedback, feel free to reach out!
 ## Images
 
 ### screenshot
+
+<p align="center">
+  <img src="./design.jpg" width="600">
+</p>
+
 <p align="center">
   <img src="./VerininAnalizi.jpg" width="600">
 </p>
