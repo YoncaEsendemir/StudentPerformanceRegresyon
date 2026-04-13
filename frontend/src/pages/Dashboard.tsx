@@ -52,9 +52,9 @@ const Dashboard = () => {
 
   return (
     <Container className="mt-5">
-      <Row className="justify-content-center">
-        <Col md={6}>
-          <div className="card-modern">
+      <Row className="d-flex justify-content-center mt-5">
+        <Col md={5} lg={4}>
+          <div className="card-modern w-100">
             <h3 className="text-center fw-bold title mb-4" style={{ color: "#fff" }}>
               Student Performance Predictor
             </h3>

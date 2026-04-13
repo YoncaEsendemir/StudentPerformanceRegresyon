@@ -4,7 +4,7 @@ interface Props {
 
 const PredictionCard = ({ result }: Props) => {
   return (
-    <div className="mt-4 p-3 bg-light rounded text-center">
+    <div className="mt-4 p-2 bg-light rounded text-center">
       <h4>Predicted Performance Index:</h4>
       <h2 className="text-primary">
         {result !== null ? result : "—"}
